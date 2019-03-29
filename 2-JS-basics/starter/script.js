@@ -20,11 +20,13 @@
 
 // BMI = mass / height^2 
 
-let massMark, massJohn, johnHeight, markHeight, markBMI, johnBMI, greaterBMI
+let massMark= 78, massJohn=95, johnHeight= 1.69, markHeight= 1.88, markBMI, johnBMI, greaterBMI
 
 markBMI = massMark / (markHeight * markHeight)
 
 johnBMI = massJohn / (johnHeight * johnHeight)
+
+console.log(markBMI, johnBMI)
 
 greaterBMI = markBMI > johnBMI
 
